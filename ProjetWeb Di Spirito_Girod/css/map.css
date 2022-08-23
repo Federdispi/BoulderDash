@@ -1,0 +1,104 @@
+map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+map > div {
+    display: flex;
+}
+
+map > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    background-color: black;
+}
+
+map > div > div.joueur {
+    background: url("../img/joueur.png");
+    background-color: black;
+}
+
+map > div > div.mur {
+    background: url("../img/mur.jpg");
+}
+
+map > div > div.terre {
+    background: url("../img/terre.jpg");
+}
+
+map > div > div.diamant {
+    background: url("../img/diamant.jpg");
+}
+
+map > div > div.rocher {
+    background: url("../img/rocher.jpg");
+}
+
+map > div > div.mort {
+    background: url("../img/mort.png");
+}
+
+map > div > div.droite0 {
+    background: url("../img/droite0.png");
+    background-color: black;
+}
+
+map > div > div.droite1 {
+    background: url("../img/droite1.png");
+    background-color: black;
+}
+
+map > div > div.droite2 {
+    background: url("../img/droite2.png");
+    background-color: black;
+}
+
+map > div > div.gauche0 {
+    background: url("../img/gauche0.png");
+    background-color: black;
+}
+
+map > div > div.gauche1 {
+    background: url("../img/gauche1.png");
+    background-color: black;
+}
+
+map > div > div.gauche2 {
+    background: url("../img/gauche2.png");
+    background-color: black;
+}
+
+map > div > div.bas0 {
+    background: url("../img/bas0.png");
+    background-color: black;
+}
+
+map > div > div.bas1 {
+    background: url("../img/bas1.png");
+    background-color: black;
+}
+
+map > div > div.bas2 {
+    background: url("../img/bas2.png");
+    background-color: black;
+}
+
+map > div > div.haut0 {
+    background: url("../img/haut0.png");
+    background-color: black;
+}
+
+map > div > div.haut1 {
+    background: url("../img/haut1.png");
+    background-color: black;
+}
+
+map > div > div.haut2 {
+    background: url("../img/haut2.png");
+    background-color: black;
+}

@@ -1,0 +1,30 @@
+menu{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+menu > button {
+    margin-bottom: 75px;
+}
+
+menu > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+menu > div >button {
+    width: 10%;
+    text-align: center;
+}
+
+compteur {
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 25px;
+}

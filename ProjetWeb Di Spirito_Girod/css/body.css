@@ -1,0 +1,54 @@
+@font-face {
+    font-family: boulderdash;
+    src: url(../fonts/Boulder-Dash-6128.ttf);
+}
+
+body{
+    background-image: url(../background/violet.gif);
+    background-size: cover;
+    font-family: boulderdash;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-top: 75px;
+    font-size: 72px;
+    margin-bottom: 100px;
+}
+
+button{
+    display: flex;
+    margin: auto;
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    border: none;
+    font-family: boulderdash;
+    font-size: 42px; 
+    height: 50px;
+}
+
+button:hover{
+    color: yellow;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload {
+    display: flex;
+    margin: auto;
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    border: none;
+    font-family: boulderdash;
+    font-size: 42px; 
+    height: 50px;
+}
+
+.file-upload:hover {
+    color: yellow;
+}
